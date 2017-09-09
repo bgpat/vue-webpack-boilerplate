@@ -5,8 +5,7 @@
   "author": "{{ author }}",
   "private": true,
   "scripts": {
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js"
+    "build": "webpack"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
