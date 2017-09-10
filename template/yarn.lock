@@ -3212,6 +3212,10 @@ schema-utils@^0.3.0:
   dependencies:
     ajv "^5.0.0"
 
+scss-loader@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/scss-loader/-/scss-loader-0.0.1.tgz#eae017b9e0f38c12a532db25c220b902fb34e671"
+
 "semver@2 || 3 || 4 || 5", semver@^5.1.0, semver@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
