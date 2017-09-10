@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueMaterial from 'vue-material';
 import App from './app';
-import Root from './root';
+import routes from './routes';
 
 import 'roboto-fontface/css/roboto/roboto-fontface.css';
 import 'material-design-icons/iconfont/material-icons.css';
@@ -19,11 +19,6 @@ new Vue({
     App,
   },
   router: new VueRouter({
-    routes: [
-      {
-        path: '/',
-        component: Root,
-      },
-    ],
+    routes,
   }),
 });
